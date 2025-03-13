@@ -1,0 +1,106 @@
+.black-bar  {
+    background-color: rgb(50, 109, 153);
+    height: 50px;
+    width: 100;
+    border-radius: 2px;
+    display: flex;
+}
+
+body {
+
+margin: 0;    
+    background: linear-gradient(rgb(82, 151, 203), rgb(132, 197, 246)) 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px 15px;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2 ease;
+}
+
+.services {
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px 5px;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+}
+
+.pre-text {
+    white-space: pre;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 47, 242);
+    position: absolute;
+    top: 120px;
+    left: 183px;
+    animation: rotate 7s linear infinite;
+    margin-right: 20px;
+    border-radius: 8px;
+    z-index: -2;
+}
+
+.squaree {
+        width: 250px;
+        height: 250px;
+        background-color: rgb(13, 81, 141);
+        position: absolute;
+        top: 120px;
+        left: 183px;
+        animation: rotate 7s linear infinite;
+        margin-right: 20px;
+        border-radius: 8px;
+        z-index: -1;
+}
+
+.squareee {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(63, 47, 242);
+        position: absolute;
+        top: 787px;
+        left: 281px;
+        animation: rotate 7s linear infinite;
+        margin-right: 20px;
+        border-radius: 8px;
+        z-index: -2;
+
+}
+
+.squareeee {
+        width: 250px;
+        height: 250px;
+        background-color: rgb(13, 81, 149);
+        position: absolute;
+        top: 787px;
+        left: 281px;
+        animation: rotate 7s linear infinite;
+        margin-right: 20px;
+        border-radius: 8px;
+        z-index: -1;
+}
+    
+
+
+@keyframes rotate {
+    from {  transform: rotate(0deg);  }
+    to {    transform: rotate(360deg); }
+}
+
+
+
